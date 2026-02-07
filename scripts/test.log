@@ -1,0 +1,32 @@
+2025-02-03 10:15:42 INFO User 'john' logged in
+2025-02-03 10:16:01 DEBUG Loading configuration file
+2025-02-03 10:17:12 WARN Disk space at 85%
+2025-02-03 10:18:55 ERROR Failed to open database connection
+2025-02-03 10:19:07 INFO User 'admin' attempted login
+2026-02-03 10:15:42 INFO User 'john' logged in
+2026-02-03 10:16:01 DEBUG Loading configuration file
+2026-02-03 10:17:12 WARN Disk space at 85%
+2026-02-03 10:18:55 ERROR Failed to open database connection
+2026-02-03 10:19:07 INFO User 'admin' attempted login
+2026-02-03 10:19:09 ERROR Invalid password for user 'admin'
+2026-02-03 10:20:44 INFO Scheduled job 'cleanup' started
+2026-02-03 10:20:45 DEBUG Cleanup scanning directory /var/logs/
+2026-02-03 10:20:46 WARN File /var/logs/app.log growing too fast
+2026-02-03 10:21:10 INFO Scheduled job 'cleanup' completed
+2026-02-03 10:23:58 ERROR API request to https://api.example.com timeout
+2026-02-03 10:25:42 DEBUG Retrying failed request
+2026-02-03 10:26:13 ERROR API request failed after 3 retries
+2026-02-03 10:27:00 INFO User 'john' logged out
+2026-02-03 10:28:21 INFO Backup job started
+2026-02-03 10:29:33 DEBUG Backup chunk 1/5 uploaded
+2026-02-03 10:29:40 DEBUG Backup chunk 2/5 uploaded
+2026-02-03 10:29:53 DEBUG Backup chunk 3/5 uploaded
+2026-02-03 10:30:02 DEBUG Backup chunk 4/5 uploaded
+2026-02-03 10:30:10 DEBUG Backup chunk 5/5 uploaded
+2026-02-03 10:31:22 INFO Backup job finished successfully
+2027-02-03 10:32:01 WARN Low memory detected
+2027-02-03 10:33:15 ERROR Memory allocation failed in module 'renderer'
+2027-02-03 10:35:47 INFO Heartbeat received from worker-01
+2027-02-03 10:36:12 DEBUG Worker-01 status: OK
+2027-02-03 10:37:24 WARN Worker-02 response delayed
+2028-02-03 10:38:41 ERROR Worker-02 failed to respond to ping
